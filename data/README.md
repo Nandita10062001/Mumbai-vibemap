@@ -13,7 +13,7 @@
 
 #### 🛰️ Satellite Image Analysis
 
-**Data Source:** Google Earth Engine and Sentinel Hhub
+**Data Source:** Google Earth Engine and Manually Annotated High Resolution Satellite Image Dataset of Mumbai for Semantic Segmentation
 **Processing Pipeline (Sample: 5 images per vibe only due to constraints):**
 - Collected 500m x 500m satellite tiles for representative locations
 - Applied **DeepLabV3+** (pre-trained) for semantic segmentation (building/vegetation/road classification)
