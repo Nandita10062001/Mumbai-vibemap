@@ -12,7 +12,7 @@ Not wanting to stick to the basic calm, vibrant or happy moods, here is how I vi
 ⚡ **Chaotic Hustle** - Urban energy in perpetual motion  
 📸 **Do It For The Gram** - Where every corner is Instagram gold  
 
-Using cutting-edge ML, comprehensive data colleciton and extensive feature engineering, I have worked towards building a system that predicts the vibe of any location in the city.
+Using cutting-edge ML, comprehensive data collection and extensive feature engineering, I have worked towards building a system that predicts the vibe of any location in the city with **87% accuracy**.
 
 ---
 
@@ -23,30 +23,39 @@ Using cutting-edge ML, comprehensive data colleciton and extensive feature engin
 - **Explores neighborhoods** to find similar vibes across the city
 ---
 
+#### 📹 Project Walkthrough
+🎥 **[Watch Full Presentation Video](link-to-your-video)** - Complete project explanation and live demo
+
+---
+
 #### 📸 Demo Gallery
 
 ##### 🗺️ Interactive Vibe Map
-![Vibe Map Visualization](src/model/images/vibe_map_demo.png)
+![Vibe Map Visualization](src/model/images/interactivemap.png)
 *Real-time vibe predictions across Mumbai neighborhoods*
 
 ##### 📊 Confidence Map 
-![Model Performance](src/model/images/model_performance.png)
+![Model Performance](src/model/images/confidence.png)
 
 
 ##### 🎭 Exploration Mode
-![Exploration Mode](src/model/images/vibe_distribution.png)
+![Exploration Mode](src/model/images/exploration.png)
 *"Find places like Marine Drive" - similarity search across the city*
 
 ##### ⚡ Real-time Prediction 
-![Prediction Interface](src/model/images/prediction_demo.png)
-
+![Prediction Interface](src/model/images/prediction1.png)
+![Prediction Interface](src/model/images/prediction2.png)
+![Prediction Interface](src/model/images/prediction3.png)
+![Prediction Interface](src/model/images/prediction4.png)
 
 ##### 🔍 Analytics
-![Analytics](src/model/images/exploration_mode.png)
+![Analytics](src/model/images/analytics1.png)
+![Analytics](src/model/images/analytics2.png)
+![Analytics](src/model/images/analytics3.png)
 
 
 ##### EDA
-![EDA](src/model/images/exploration_mode.png)
+![EDA](src/model/images/eda.png)
 
 ---
 
@@ -54,7 +63,7 @@ Using cutting-edge ML, comprehensive data colleciton and extensive feature engin
 
 ---
 
-## 📊 Data & Features
+##### 📊 Data & Features
 
 **Key Features Generated:**
 - **Spatial**: OSM density scores, satellite-derived land use
@@ -64,32 +73,32 @@ Using cutting-edge ML, comprehensive data colleciton and extensive feature engin
 
 ---
 
-## 🛠️ Core Components
+#### 🛠️ Core Components
 
-### Data Collection (`src/data_collection/`)
+##### Data Collection (`src/data_collection/`)
 Automated rule-based generators for each vibe category with feature generation:
 
-### Feature Engineering (`src/feature_engineering/`)
+##### Feature Engineering (`src/feature_engineering/`)
 **Contextual intelligence extraction** combining:
 - `feature_engineering.py` - Heritage walks tourism data integration
 - Social media hashtag trend analysis
 - Infrastructure congestion intelligence  
 - Temporal and seasonal pattern recognition
 
-### Image Collection (`src/image_collection/`)
+##### Image Collection (`src/image_collection/`)
 Multi-source image gathering with feature extraction:
  - High-resolution satellite imagery (Sentinel Hub)
 - Geotagged social media photos (Instagram API)
 - Street-level visual features (Google StreetView)
 - Deep learning embeddings (on a fixed set of sample) + rule-based feature scaling
 
-### EDA & Analysis (`src/eda/`)
+##### EDA & Analysis (`src/eda/`)
 - `eda.ipynb` - Comprehensive exploratory data analysis
 - Interactive visualizations of vibe distributions
 - Feature correlation and importance analysis
 - Geographic pattern recognition
 
-### Model Development (`src/model/`)
+##### Model Development (`src/model/`)
 **Production-ready ML pipeline** with:
 - `ml_pipeline.ipynb` - Complete training pipeline with 4 model approaches
 - `app.py` - Streamlit production demo with real-time inference
@@ -105,7 +114,7 @@ Multi-source image gathering with feature extraction:
 3. Multi-Source Supervision (combining manual labels with weak supervison from clustering)
 4. Transfer Learning (knowledge transfer by assigning weights)
 
-#### 🚀 Getting Started
+##### 🚀 Getting Started
 
 ##### Installation
 ```bash
@@ -139,7 +148,7 @@ python scripts/data_combiner.py
 python scripts/data_ml_prep.py
 ```
 
-#### 🚀 Future Roadmap
+##### 🚀 Future Roadmap
 
 1. Multi-city expansion with transfer learning to Delhi, Bangalore, etc.
 2. Mobile app deployment for on-the-go vibe discovery
