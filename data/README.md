@@ -110,7 +110,7 @@ Due to limited constraints like no billing account, free-tier credits expiration
 - Vibe-specific authenticity scoring using cultural domain knowledge
 
 I created a quiet comprehensive list of features, that would scale for other cities like Delhi and Bangalore as well. My main aim was ot research and study every aspect of Mumbai to get all possible estimates. For a dataset as huge as 2000+, this would be the ideal set of features. 
-Since I currently trained only on 227 datapoints, I performenr further feature selection during ML Modeling and selected top ones to maintain the **10:1** ratio.
+Since I currently trained only on 227 datapoints, I performed further feature selection during ML Modeling and selected top ones to maintain the **10:1** ratio.
 
 
 #### 🎯 Final Dataset Specifications
