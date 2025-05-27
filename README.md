@@ -24,8 +24,8 @@ Using cutting-edge ML, comprehensive data collection and extensive feature engin
 ---
 
 #### 📹 Project Walkthrough
-🎥 **[Watch Full Presentation Video](link-to-your-video)** - Complete project explanation and live demo
-
+🎥 **[Watch Full Presentation Video](https://www.loom.com/share/57301bee94ee44aba0c603f4ec4aa2e7?sid=a9e4292b-df78-4081-97aa-d3ecdef4deb7)** - Complete project explanation and live demo
+**Streamlit App Demo** - 
 ---
 
 #### 📸 Demo Gallery
