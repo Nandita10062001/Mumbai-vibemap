@@ -1,0 +1,6 @@
+walk_name,duration_hours,locations_covered,difficulty,best_time,frequency_per_week
+Fort Heritage Walk,3.0,"['Gateway of India', 'Taj Mahal Palace', 'University of Mumbai', 'High Court']",Easy,Morning,14
+Art Deco Architecture Tour,2.5,"['Marine Drive Buildings', 'Eros Cinema', 'Liberty Cinema', 'Oval Maidan']",Easy,Evening,7
+Mill District Heritage Tour,4.0,"['Phoenix Mills', 'Standard Mills', 'Century Mills', 'Swadeshi Mills']",Moderate,Morning,5
+Colonial Forts Trail,5.0,"['Sewri Fort', 'Mahim Fort', 'Worli Fort', 'Sion Fort']",Moderate,Morning,3
+Markets & Bazaars Heritage Walk,3.5,"['Crawford Market', 'Zaveri Bazaar', 'Chor Bazaar', 'Mangaldas Market']",Easy,Morning,10

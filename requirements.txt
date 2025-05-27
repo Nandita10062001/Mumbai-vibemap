@@ -1,0 +1,40 @@
+# Core Data Science Libraries
+pandas
+numpy
+scikit-learn
+
+# Geospatial and Mapping
+geopandas
+geopy
+osmnx
+overpy
+folium
+
+# Data Collection and APIs
+requests
+selenium
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Image Processing
+Pillow
+opencv-python
+
+# Utilities
+tqdm
+python-dotenv
+
+# Jupyter
+jupyter
+notebook
+ipywidgets
+
+# Testing
+pytest
+
+# For demo
+streamlit
+flask

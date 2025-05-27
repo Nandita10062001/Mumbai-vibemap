@@ -1,0 +1,29 @@
+{
+  "total_locations": 46,
+  "successful_downloads": 27,
+  "failed_downloads": 19,
+  "failed_locations": [
+    "Khau Galli",
+    "Juhu Chowpatty Food Stalls",
+    "Carter Road Food Court",
+    "Elco Market",
+    "Dadar Chowpatty Food Area",
+    "Kyaani & Co.",
+    "Prakash Ice Cream",
+    "Ram Ashraya",
+    "Matunga Food Hub",
+    "Cutting Chai - CST",
+    "Cutting Chai - Dadar",
+    "Cutting Chai - Bandra",
+    "Kandoi Bhogilal Mulchand",
+    "Mishti Doi - Matunga",
+    "Palladium Food Court",
+    "Phoenix Mills Food Area",
+    "Atria Mall Food Court",
+    "Highway Gomantak",
+    "Mahesh Lunch Home"
+  ],
+  "source": "Wikimedia Commons API",
+  "license": "Public Domain / Creative Commons",
+  "method": "Official API (not scraping)"
+}

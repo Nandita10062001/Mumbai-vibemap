@@ -1,0 +1,14 @@
+{
+  "total_locations": 47,
+  "successful_downloads": 43,
+  "failed_downloads": 4,
+  "failed_locations": [
+    "Swadeshi Mills",
+    "Matulya Mills",
+    "Mangaldas Market",
+    "Byculla Railway Workshop"
+  ],
+  "source": "Wikimedia Commons API",
+  "license": "Public Domain / Creative Commons",
+  "method": "Official API (not scraping)"
+}

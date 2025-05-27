@@ -1,0 +1,22 @@
+{
+  "total_locations": 48,
+  "successful_downloads": 36,
+  "failed_downloads": 12,
+  "failed_locations": [
+    "Candies Bandra",
+    "The Pantry Kala Ghoda",
+    "Cafe Mocha Multiple",
+    "The Sassy Spoon",
+    "Sassoon Docks Art Project",
+    "Versova Art Village",
+    "Aer Bar Four Seasons",
+    "Asilo Rooftop",
+    "Skybar Mumbai",
+    "Bandra West Cafes Strip",
+    "Khar West Social Scene",
+    "Lower Parel Mills District"
+  ],
+  "source": "Wikimedia Commons API",
+  "license": "Public Domain / Creative Commons",
+  "method": "Official API (not scraping)"
+}
