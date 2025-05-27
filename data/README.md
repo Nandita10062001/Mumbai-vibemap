@@ -14,6 +14,7 @@
 #### 🛰️ Satellite Image Analysis
 
 **Data Source:** Google Earth Engine and Manually Annotated High Resolution Satellite Image Dataset of Mumbai for Semantic Segmentation + Mapillary
+
 **Processing Pipeline (Sample: 5 images per vibe only due to constraints):**
 - Collected 500m x 500m satellite tiles for representative locations
 - Applied **DeepLabV3+** (pre-trained) for semantic segmentation (building/vegetation/road classification)
@@ -30,6 +31,7 @@
 #### 📸 Street-Level Extraction
 
 **Data Source:** Google Street View API
+
 **Processing Pipeline (Sample: 5 images per vibe):**
 - Applied pre-trained CNN for scene understanding
 - Used **YOLO** for crowd detection and **NIMA (Neural Image Assessment)** for aesthetic scoring
@@ -44,6 +46,7 @@
 #### 📱 Social Media Image Intelligence
 
 **Data Source:** Instagram Location APIand geotagged images
+
 **Processing Pipeline (Sample: 5 images per vibe):**
 - Collected geotagged images within 100m radius of sample locations
 - Applied **CLIP (Contrastive Language-Image Pre-training)** for content understanding
